@@ -39,8 +39,7 @@ Make sure you have node js installed on your machine.
 ```jsx
   <EmailPassCreate/>
 ```
-|        Name        |     
-      Type           | Required                                                     | Description                                                               |
+|        Name        |           Type           | Required                                                     | Description                                                               |
 | :----------------: | :----------------------: | :----------------------------------------------------------- | :------------------------------------------------------------------------ |
 |      `client`      | `Appwrite Client Object` | `true`                                                       | The Appwrite client instance configured with your endpoint and project id |
 |     `success`      |        `function`        | `true`                                                       | Callback function to be called on successful login                        |
@@ -102,11 +101,11 @@ Appwrite requires an SMS provider to be setup before using Phone authentication.
 ```jsx
   <Phone/>
 ```
-|       Name       |           Type           | Required                                       | Description                                                               |
-| :--------------: | :----------------------: | :--------------------------------------------- | :------------------------------------------------------------------------ |
-|     `client`     | `Appwrite Client Object` | `true`                                         | The Appwrite client instance configured with your endpoint and project id |
-| `success`        |        `function`        | `true`                                         | Callback function to be called on successful login                        |
-| `buttonText`     |         `string`         | `false (default: 'Sign In with Phone')`        | The text to be displayed on the button                                    |
-| `buttonStyle`    |         `object`         | `false`                                        | Set custom style for the button                                           |
-| `inputStyle`     |         `object`         | `false`                                        | Set custom style for the input fields                                     |
-| `validations`    |         `object`         | `false (default: {userId: true, phoneNumber: true})`               | Set the validation rules for the input fields                             |
+|     Name      |           Type           | Required                                             | Description                                                               |
+| :-----------: | :----------------------: | :--------------------------------------------------- | :------------------------------------------------------------------------ |
+|   `client`    | `Appwrite Client Object` | `true`                                               | The Appwrite client instance configured with your endpoint and project id |
+|   `success`   |        `function`        | `true`                                               | Callback function to be called on successful login                        |
+| `buttonText`  |         `string`         | `false (default: 'Sign In with Phone')`              | The text to be displayed on the button                                    |
+| `buttonStyle` |         `object`         | `false`                                              | Set custom style for the button                                           |
+| `inputStyle`  |         `object`         | `false`                                              | Set custom style for the input fields                                     |
+| `validations` |         `object`         | `false (default: {userId: true, phoneNumber: true})` | Set the validation rules for the input fields                             |
