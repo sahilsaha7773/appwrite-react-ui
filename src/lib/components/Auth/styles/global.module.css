@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #f02e65;
+  --secondary-color: #2b57e7;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+.formInput {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.formButton {
+  width: 100%;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.formButton:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

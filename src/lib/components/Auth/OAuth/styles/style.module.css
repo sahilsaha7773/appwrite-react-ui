@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #f02e65;
+  --secondary-color: #2b57e7;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+.oauthButton {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oauthButton:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oauthButton > i {
+  margin-right: 10px;
+}
