@@ -20,10 +20,11 @@
     "name": "Sahil Saha",
     "email": "sahilsaha7773@gmail.com"
   },
-  "main": "dist/index.js",
-  "publishConfig": {
-    "access": "restricted"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilsaha7773/appwrite-react-ui"
   },
+  "main": "dist/index.js",
   "dependencies": {
     "@appwrite.io/pink": "0.0.6-rc.7",
     "@babel/polyfill": "^7.12.1",
