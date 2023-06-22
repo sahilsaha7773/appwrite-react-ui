@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/35343652/231851341-706fd0b6-20c6-495c-
 
 # Installation
 ```
-This project is not yet published on npm.
+npm i appwrite-react-ui
 ```
 [Official appwrite docs](https://appwrite.io/docs) to install appwrite locally.
 
